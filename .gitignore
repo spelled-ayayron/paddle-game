@@ -1,5 +1,6 @@
 sourcemap.json
 Packages/
+ServerPackages/
 **/*.rbx[lm]*
 .DS_Store
 roblox.yml
