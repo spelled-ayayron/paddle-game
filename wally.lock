@@ -20,7 +20,7 @@ dependencies = []
 [[package]]
 name = "herfave/roblox-project-template"
 version = "0.1.0"
-dependencies = [["Comm", "sleitnick/comm@1.0.1"], ["EnumList", "sleitnick/enum-list@2.1.0"], ["Fusion", "elttob/fusion@0.3.0"], ["Input", "sleitnick/input@2.3.0"], ["Iris", "sirmallard/iris@2.5.0"], ["Janitor", "howmanysmall/janitor@1.18.3"], ["ObjectCache", "pyseph/objectcache@1.4.6"], ["Promise", "evaera/promise@4.0.0"], ["Sift", "csqrl/sift@0.0.9"], ["Signal", "sleitnick/signal@2.0.3"], ["TableUtil", "sleitnick/table-util@1.2.1"], ["Timer", "sleitnick/timer@1.1.2"], ["WaitFor", "sleitnick/wait-for@0.2.2"], ["Lyra", "paradoxum-games/lyra@0.6.0"]]
+dependencies = [["Comm", "sleitnick/comm@1.0.1"], ["Component", "sleitnick/component@2.4.8"], ["EnumList", "sleitnick/enum-list@2.1.0"], ["Fusion", "elttob/fusion@0.3.0"], ["Input", "sleitnick/input@2.3.0"], ["Iris", "sirmallard/iris@2.5.0"], ["Janitor", "howmanysmall/janitor@1.18.3"], ["ObjectCache", "pyseph/objectcache@1.4.6"], ["Promise", "evaera/promise@4.0.0"], ["Sift", "csqrl/sift@0.0.9"], ["Signal", "sleitnick/signal@2.0.3"], ["TableUtil", "sleitnick/table-util@1.2.1"], ["Timer", "sleitnick/timer@1.1.2"], ["WaitFor", "sleitnick/wait-for@0.2.2"], ["Lyra", "paradoxum-games/lyra@0.6.0"]]
 
 [[package]]
 name = "howmanysmall/janitor"
@@ -58,6 +58,11 @@ version = "1.0.1"
 dependencies = [["Option", "sleitnick/option@1.0.5"], ["Promise", "evaera/promise@4.0.0"], ["Signal", "sleitnick/signal@2.0.3"]]
 
 [[package]]
+name = "sleitnick/component"
+version = "2.4.8"
+dependencies = [["Promise", "evaera/promise@4.0.0"], ["Signal", "sleitnick/signal@2.0.3"], ["Symbol", "sleitnick/symbol@2.0.1"], ["Trove", "sleitnick/trove@1.5.1"]]
+
+[[package]]
 name = "sleitnick/enum-list"
 version = "2.1.0"
 dependencies = []
@@ -80,6 +85,11 @@ dependencies = []
 [[package]]
 name = "sleitnick/signal"
 version = "2.0.3"
+dependencies = []
+
+[[package]]
+name = "sleitnick/symbol"
+version = "2.0.1"
 dependencies = []
 
 [[package]]
